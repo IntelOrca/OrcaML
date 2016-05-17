@@ -1,0 +1,19 @@
+﻿{
+  "version": "0.1.0-*",
+  "description": "OrcaML.Geometry Class Library",
+  "authors": [ "Ted John" ],
+  "packOptions": {
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": ""
+  },
+
+  "dependencies": {
+    "NETStandard.Library": "1.5.0-rc2-*"
+  },
+
+  "frameworks": {
+    "net45": { },
+    "netstandard15": { }
+  }
+}

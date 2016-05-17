@@ -1,0 +1,30 @@
+﻿{
+  "version": "0.1.0-*",
+  "description": "OrcaML.Tests.Integration Console Application",
+  "authors": [ "Ted John" ],
+  "packOptions": {
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": ""
+  },
+
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "OrcaML.Graphics.Abstractions": "*",
+    "OrcaML.Graphics.DirectX": "*",
+    "OrcaML.Graphics.OpenGL": "*",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc2-final"
+  },
+
+  "commands": {
+    "BasicFill": "OrcaML.Tests.Integration BasicFill",
+    "BasicSquare": "OrcaML.Tests.Integration BasicSquare"
+  },
+
+  "frameworks": {
+    "net46": { }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0-*",
+  "description": "OrcaML.Graphics.OpenGL Class Library",
+  "authors": [ "Ted John" ],
+  "packOptions": {
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": ""
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc2-*",
+    "OpenTK": "1.1.1589.5942",
+    "OrcaML.Common": "*",
+    "OrcaML.Graphics.Abstractions": "*"
+  },
+
+  "frameworks": {
+    "net46": {
+      "frameworkAssemblies": {
+        "System.Drawing": "4.0.0.0"
+      }
+    }
+  }
+}

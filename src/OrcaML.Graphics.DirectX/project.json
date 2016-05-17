@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0-*",
+  "description": "OrcaML.Graphics.DirectX Class Library",
+  "authors": [ "Ted John" ],
+  "packOptions": {
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": ""
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-*",
+    "OrcaML.Geometry": "*",
+    "OrcaML.Graphics.Abstractions": "*",
+    "OrcaML.Graphics.Shading": "*",
+    "SharpDX": "3.0.1",
+    "SharpDX.D3DCompiler": "3.0.1",
+    "SharpDX.Desktop": "3.0.1",
+    "SharpDX.Direct3D11": "3.0.1"
+  },
+
+  "frameworks": {
+    "net46": {
+      "frameworkAssemblies": {
+        "System.IO": "4.0.0.0",
+        "System.Runtime": "4.0.10.0"
+      }
+    }
+  }
+}
