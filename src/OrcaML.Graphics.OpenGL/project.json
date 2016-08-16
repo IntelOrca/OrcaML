@@ -9,8 +9,8 @@
   },
 
   "dependencies": {
-    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc2-*",
-    "OpenTK": "1.1.1589.5942",
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
+    "OpenTK": "1.1.2349.61993",
     "OrcaML.Common": "*",
     "OrcaML.Graphics.Abstractions": "*"
   },

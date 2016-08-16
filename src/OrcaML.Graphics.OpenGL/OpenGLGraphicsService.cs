@@ -55,7 +55,7 @@ namespace OrcaML.Graphics.OpenGL
             UseBuffer(buffer);
             UseVertexArray(vao);
             UseProgram(shaderProgram);
-            GL.DrawArrays(PrimitiveType.Quads, vertexBuffer.StartIndex, vertexBuffer.Length * 4);
+            GL.DrawArrays(BeginMode.Quads, vertexBuffer.StartIndex, vertexBuffer.Length * 4);
         }
 
         private void UseBuffer(IOutputBuffer buffer)
